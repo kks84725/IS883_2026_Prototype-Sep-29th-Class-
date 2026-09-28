@@ -14,5 +14,5 @@ MODEL = "gemini-3.1-flash-lite"
 
 st.write("Press the button to say hello")
 if st.button("Press me!"):
-    st.write(client.models.generate_content(model=MODEL, contents="Who is the president of the U.S is").text)
+    st.write(client.models.generate_content(model=MODEL, contents="Tell me Who the president of the U.S is").text)
 
